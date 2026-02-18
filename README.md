@@ -29,4 +29,4 @@ Instead of simply clicking a button, this utility intelligently monitors the vid
 
 
 ---
-**dev by LKPixel**
+**dev by LKPixel | Dulanka**
