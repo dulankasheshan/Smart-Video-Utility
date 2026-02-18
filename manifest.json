@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Video Utility",
+  "version": "1.0",
+  "description": "Optimizes video playback experience by streamlining content flow.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
